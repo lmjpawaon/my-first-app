@@ -11,20 +11,6 @@ const sportingGoods = [{id:1, name: 'Football', price:49.99},{id:2, name:'Baseba
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ryan Lozano - Fullstack Developer from the Philippines
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <TextInput/>
       <Checkbox/>
       <table>
