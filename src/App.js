@@ -9,15 +9,21 @@ import Items from './components/Items';
 const sportingGoods = [{id:1, name: 'Football', price:49.99},{id:2, name:'Baseball', price:9.99},{id:3, name:'Basketball', price:29.99}]
 
 function App() {
+
+  const handleClick = () =>{
+    alert('Clicked')
+  }
+
   return (
     <div className="App">
       <TextInput/>
       <Checkbox/>
+      <button onClick={handleClick}>Submit</button>
       <table>
         <tbody>
           <Header/>
           <Category/>
-          <Items items={sportingGoods}/>
+          <Items items={sportingGoods} includePrice/>
         </tbody>
       </table>
       
