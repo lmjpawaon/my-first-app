@@ -3,9 +3,10 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-        <tr>
-            <td style={{fontWeight:'bold', color:'red'}}> Name</td>
-            <td style={{fontWeight:'bold', color:'red'}}>Price</td>
+        <tr style={{fontWeight:'bold', color:'red'}}>
+            <td>Name</td>
+            <td>Price</td>
+            <td style={{paddingLeft:'50px'}}>Stock</td>
         </tr>
     </>
   )

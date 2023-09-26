@@ -10,8 +10,10 @@ const Items = (props) => {
             <tr key={item.id} onClick={()=>alert(`Clicked: ${item.name} - ${item.price}`)}>
                 <td>{item.name}</td>
                 <td>{props.includePrice && `$${item.price}`}</td>
+                <td style={{paddingLeft:'50px'}}>{item.stock}</td>
             </tr>
         ))}
+        {/* <hr style={{width:'100%'}}></hr> */}
     </>
   )
 }
